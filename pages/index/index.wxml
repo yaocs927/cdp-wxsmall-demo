@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<!--<view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
@@ -7,4 +7,18 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-</view>
+</view>-->
+
+<view id="cdp" class="main">
+		<!-- 首页头部 -->
+		<view class="index-header mb20">
+			<view class="header-top">
+				<span class="logo"></span>
+				<!-- <view class="hide" id="container1"></view> -->
+				<span class="area" id="selectArea"><span></span><i class="cdp-iconfont">&#xe613;</i></span>
+				<ul class="area-list hide" id="areaList"></ul>
+			</view>
+			<view class="header-slogan">遇见你的专属场地</view>
+			<view class="header-search searchStart"><i class="cdp-iconfont">&#xe628;</i>点击搜索场地</view>
+		</view>
+	</view>
