@@ -3,6 +3,10 @@ view {
   font-family:'Microsoft Yahei',Arial,Helvetica,sans-serif;
 }
 
+.main {
+  background-color: #eee;
+}
+
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,select {
   margin:0;
   padding:0;
@@ -86,22 +90,6 @@ i,em {
   box-sizing: border-box;
 } 
 
-
-
-@font-face {
-  font-family: "cdp-iconfont";
-  src: url("//at.alicdn.com/t/font_ifnmwuqfqidon7b9.eot");
-  src: url("//at.alicdn.com/t/font_ifnmwuqfqidon7b9.woff") format("woff"), url("//at.alicdn.com/t/font_ifnmwuqfqidon7b9.ttf") format("truetype"), url("//at.alicdn.com/t/font_ifnmwuqfqidon7b9.svg#iconfont") format("svg");
-}
-
-.cdp-iconfont {
-  font-family: "cdp-iconfont" !important;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: .2px;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .clearfix:after {
   clear: both;
   content: " ";
@@ -112,7 +100,6 @@ i,em {
 }
 
 .mb20 {
-  /*margin-bottom: 0.27778rem;*/
   margin-bottom: 20rpx;
 }
 
