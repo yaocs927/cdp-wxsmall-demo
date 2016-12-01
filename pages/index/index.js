@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    cityName: '上海',
+    cityName: res[0].data,
     cityList: ['1','2','3','4']
   },
   //事件处理函数
@@ -16,12 +16,13 @@ Page({
     console.log('onLoad')
     var that = this
     wx.request({
-      url: 'http://m.changdipai.com/changdipai/category/search', 
+      url: 'http://m.changdipai.com/changdipai/category/search?tag=city', 
       data: {
         tagName: 'city'
       },
       success: function(res) {
-        
+        console.log(res);
+        this.cityName = res;
       }
     })
   }
